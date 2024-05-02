@@ -20,6 +20,7 @@ int main() {
 	bool inWord = false;
 	int letters = 0, wordAmount = 0;
 
+
 	if (!inFile.is_open()) {
 		cerr << "Error opening file." << endl;
 		return 1;
